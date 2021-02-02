@@ -1,11 +1,11 @@
 # flutter_30_days_of_code
 
-  Day 1
+  Day 2
   
 # Details
 
-  - Infinite scrolling list
+  - Infinite scrolling list with interactiviy added and Routing implemented
   
 # Media
 
-  [Video](https://drive.google.com/file/d/1R-kt8_AW8gynEnjKmGrqVB6T4ppIxmBt/view?usp=sharing)
+  [Video](https://drive.google.com/file/d/1R6fOrqpnz7oehhcrhWWbp3MAvZ8Gncnc/view?usp=sharing)
