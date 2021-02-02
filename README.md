@@ -1,6 +1,6 @@
 # flutter_30_days_of_code
 
-Every branch of this repo is named accordingly to the days. To get to a particular day, just checkout the branch with that day number
+Every branch of this repo is named according to days. To get to a particular day, just checkout the branch with that day number
 
 # Details
 
