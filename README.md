@@ -1,16 +1,16 @@
 # flutter_30_days_of_code
 
-A new Flutter project.
+Every branch of this repo is named accordingly to the days. To get to a particular day, just checkout the branch with that day number
 
-## Getting Started
+# Details
 
-This project is a starting point for a Flutter application.
+## Day 1
 
-A few resources to get you started if this is your first Flutter project:
+  Infinite scrolling list. [Video Day 1](https://drive.google.com/file/d/1R-kt8_AW8gynEnjKmGrqVB6T4ppIxmBt/view?usp=sharing)
+  
+## Day 2
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+  Infinite scrolling list with interactivity added and routing implemented. [Video Day 2](https://drive.google.com/file/d/1R6fOrqpnz7oehhcrhWWbp3MAvZ8Gncnc/view?usp=sharing)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+Stay tuned....
