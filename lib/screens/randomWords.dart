@@ -12,12 +12,7 @@ class _RandomWordsState extends State<RandomWords> {
   final TextStyle _biggerFont = TextStyle(fontSize: 18);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Start Up Name Generator'),
-      ),
-      body: _buildSuggestions(),
-    );
+    return _buildSuggestions();
   }
 
   Widget _buildSuggestions() {

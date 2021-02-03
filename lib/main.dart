@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './screens/randomWords.dart';
+import './screens/drawerScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
      return MaterialApp(
        debugShowCheckedModeBanner: false,
        theme: ThemeData(primaryColor: Colors.teal),
-      home: RandomWords(),
+      home: Scaffold(
+        drawer: DrawerScreen(),
+      ),
       title: 'Start Up Name Generator',
     );
   }
