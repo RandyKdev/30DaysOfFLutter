@@ -34,6 +34,7 @@ class _RandomWordsState extends State<RandomWords> {
         pair.asPascalCase,
         style: _biggerFont,
       ),
+      onTap: () {Navigator.of(context).pop();},
     );
   }
 }

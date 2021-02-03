@@ -5,7 +5,7 @@ class DrawerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.teal,
+      color: Colors.pink,
       child: Column(
         mainAxisSize: MainAxisSize.max,
         children: [
