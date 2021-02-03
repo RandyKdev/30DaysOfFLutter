@@ -11,6 +11,10 @@ Every branch of this repo is named according to days. To get to a particular day
 ## Day 2
 
   Infinite scrolling list with interactivity added and routing implemented. [Video Day 2](https://drive.google.com/file/d/1R6fOrqpnz7oehhcrhWWbp3MAvZ8Gncnc/view?usp=sharing)
+  
+## Day 3
+
+  A simple application with side drawer. [Video Day 3](https://drive.google.com/file/d/1Rl4VkFnNOtIfAeIqiXQD99YlMbePlpyH/view?usp=sharing)
 
 
 Stay tuned....
