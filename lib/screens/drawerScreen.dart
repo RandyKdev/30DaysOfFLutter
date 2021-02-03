@@ -1,17 +1,32 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_30_days_of_code/screens/randomWords.dart';
 
 class DrawerScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        DrawerHeader(
-          child: Center(
-            child: Text("Drawer Header"),
+    return Container(
+      color: Colors.teal,
+      child: Column(
+        mainAxisSize: MainAxisSize.max,
+        children: [
+          DrawerHeader(
+            child: Center(
+              child: Text(
+                "Drawer Header",
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+            ),
           ),
-        ),
-        ListTile()
-      ],
+          Expanded(
+            child: Container(
+              color: Colors.white,
+              child: RandomWords(),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -6,14 +6,17 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
-   Widget build(BuildContext context) {
-     return MaterialApp(
-       debugShowCheckedModeBanner: false,
-       theme: ThemeData(primaryColor: Colors.teal),
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primaryColor: Colors.teal),
       home: Scaffold(
+        appBar: AppBar(
+          title: Text("Drawer example"),
+        ),
         drawer: DrawerScreen(),
       ),
-      title: 'Start Up Name Generator',
+      title: 'Drawer Example',
     );
   }
 }
