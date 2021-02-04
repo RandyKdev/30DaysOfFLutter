@@ -16,5 +16,9 @@ Every branch of this repo is named according to days. To get to a particular day
 
   A simple application with side drawer. [Video Day 3](https://drive.google.com/file/d/1Rl4VkFnNOtIfAeIqiXQD99YlMbePlpyH/view?usp=sharing)
 
-
+## Day 4
+  
+  SnackBar Playground. [Video Day 4](https://drive.google.com/file/d/1T1LwhM7Bo9ggNWWby0g9PFHHTujcr_5x/view?usp=sharing)
+  
+  
 Stay tuned....
