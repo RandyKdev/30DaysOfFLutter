@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import './screens/randomWords.dart';
+import 'package:flutter_30_days_of_code/screens/snackBar.dart';
 
 void main() => runApp(MyApp());
 
@@ -9,9 +8,9 @@ class MyApp extends StatelessWidget {
    Widget build(BuildContext context) {
      return MaterialApp(
        debugShowCheckedModeBanner: false,
-       theme: ThemeData(primaryColor: Colors.teal),
-      home: RandomWords(),
-      title: 'Start Up Name Generator',
+       theme: ThemeData(primaryColor: Colors.blue),
+      home: SnackBarScreen(),
+      title: 'SnackBar Example',
     );
   }
 }
