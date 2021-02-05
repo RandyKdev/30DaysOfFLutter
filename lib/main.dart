@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_30_days_of_code/screens/snackBar.dart';
+import 'package:flutter_30_days_of_code/screens/layout.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,12 +10,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.blue),
       home: Scaffold(
-        appBar: AppBar(
-        title: Text("SnackBar Example"),
+        body: LayoutScreen(),
       ),
-        body: SnackBarScreen(),
-      ),
-      title: 'SnackBar Example',
+      title: 'Building Layouts 1',
     );
   }
 }
