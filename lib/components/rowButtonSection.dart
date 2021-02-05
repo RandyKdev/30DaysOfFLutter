@@ -29,7 +29,7 @@ class RowButtonSection extends StatelessWidget {
             text,
             style: TextStyle(
               color: Colors.blue,
-              fontSize: 18,
+              fontSize: 17,
             ),
           ),
         ),

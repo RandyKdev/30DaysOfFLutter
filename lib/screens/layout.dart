@@ -8,6 +8,7 @@ class LayoutScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView(
       children: [
+        Image.asset("assets/lake.jpg"),
         TitleSection(),
         RowButtonSection(),
         BlockTextSection(),
