@@ -9,7 +9,7 @@ Day 5
 # Media
 
 Goal:
-![Goal](https://drive.google.com/file/d/1TWZh2mz3RvOoBjQpIf1OMeIer8zh2GvJ/view?usp=sharing)
+![Goal](/assets/lake.jpg)
 
 End Product: 
-![End Product](https://drive.google.com/file/d/1TYDq2_C-itic5JTrUMTwi68IftgOFCrk/view?usp=sharing)
+![End Product](/assets/done1.jpg)
