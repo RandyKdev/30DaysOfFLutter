@@ -1,11 +1,11 @@
 # flutter_30_days_of_code
 
-Day 23
+Day 24
 
 # Details
 
-  - Contact Details App
+  - Rolling Dice App
   
 # Media
 
-![Image](/images/done.png)
+![Image](/images/day24.png)
