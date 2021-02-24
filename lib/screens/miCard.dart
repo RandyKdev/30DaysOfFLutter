@@ -28,58 +28,53 @@ class MiCard extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          Container(
-            margin: EdgeInsets.only(
-              top: 20,
-              left: 20,
-              right: 20,
-            ),
-            padding: EdgeInsets.all(12),
-            color: Colors.white,
-            child: Row(
-              children: [
-                Icon(
-                  Icons.phone,
-                  color: Colors.teal,
-                ),
-                SizedBox(
-                  width: 30,
-                ),
-                Text(
-                  "+237 747 474 7474",
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontFamily: 'SourceSansPro',
-                    color: Colors.teal,
-                  ),
-                ),
-              ],
+          SizedBox(
+            height: 20,
+            width: 100,
+            child: Divider(
+              color: Colors.tealAccent,
             ),
           ),
-          Container(
-            margin: EdgeInsets.all(20),
-            padding: EdgeInsets.all(12),
-            color: Colors.white,
-            child: Row(
-              children: [
-                Icon(
-                  Icons.email,
-                  color: Colors.teal,
-                ),
-                SizedBox(
-                  width: 30,
-                ),
-                Text(
-                  "randyk@email.com",
-                  style: TextStyle(
-                    fontSize: 17,
-                    fontFamily: 'SourceSansPro',
-                    color: Colors.teal,
-                  ),
-                ),
-              ],
+          Card(
+            margin: EdgeInsets.symmetric(
+              horizontal: 25,
+              vertical: 10,
             ),
-          )
+            child: ListTile(
+              leading: Icon(
+                Icons.phone,
+                color: Colors.teal,
+              ),
+              title: Text(
+                "+237 747 747 4747",
+                style: TextStyle(
+                  color: Colors.teal,
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 17,
+                ),
+              ),
+            ),
+          ),
+          Card(
+            margin: EdgeInsets.symmetric(
+              horizontal: 25,
+              vertical: 10,
+            ),
+            child: ListTile(
+              leading: Icon(
+                Icons.email,
+                color: Colors.teal,
+              ),
+              title: Text(
+                "randyk@email.com",
+                style: TextStyle(
+                  color: Colors.teal,
+                  fontFamily: 'SourceSansPro',
+                  fontSize: 17,
+                ),
+              ),
+            ),
+          ),
         ],
       ),
     );

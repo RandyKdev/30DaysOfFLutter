@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import './screens/randomWords.dart';
+import 'screens/miCard.dart';
 
 void main() => runApp(MyApp());
 
